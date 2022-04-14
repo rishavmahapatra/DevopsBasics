@@ -81,12 +81,6 @@
         </plugin>
 
         <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.2</version>
-</plugin>
-
-        <plugin>
           <artifactId>maven-surefire-report-plugin</artifactId>
           <version>2.11</version>
         </plugin>
@@ -130,6 +124,12 @@
         <artifactId>jsp-api</artifactId>
         <version>2.2</version>
       </dependency>
+             
+             <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.2</version>
+</dependency>
 
       <dependency>
         <groupId>junit</groupId>
